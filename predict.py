@@ -6,7 +6,7 @@ def main():
 
     while cap.isOpened():
         ret, frame = cap.read()
-        if ret == True:
+        if ret is True:
             cv2.imshow("Frame", frame)
             if cv2.waitKey(25) & 0xFF == ord("q"):
                 break
