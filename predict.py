@@ -2,7 +2,7 @@ import cv2
 
 
 def main():
-    cap = cv2.VideoCapture("video/overpass.mp4")
+    cap = cv2.VideoCapture("video/example.mp4")
 
     while cap.isOpened():
         ret, frame = cap.read()
