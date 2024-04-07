@@ -3,3 +3,5 @@ torch==2.0.1
 torchvision==0.15.2
 torchaudio==2.0.2
 ultralytics==8.1.38
+flake8==7.0.*
+black==24.*
